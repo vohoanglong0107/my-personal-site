@@ -1,0 +1,11 @@
+.edu_table{
+    border-collapse: separate;
+    border-spacing: 1px;
+    border: 1px solid rgb(0, 0, 0);
+}
+table.edu_table td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(0, 0, 0);
+    border-spacing: 1px;
+}
