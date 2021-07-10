@@ -1,26 +1,100 @@
-body{
-    background-color: silver;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: silver;
+  text-align: center;
 }
 
-h1,
-h3{
-    color: rgb(15, 165, 192);
+h1 {
+  color: #0b3b3b;
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: rgb(29, 37, 141);
+  font-size: 2rem;
+  margin-top: 5%;
+}
+
+h3 {
+  color: rgb(29, 37, 141);
 }
 
 hr{
+    margin: 5% auto 5% auto;
     border-top: dotted;
     border-bottom: none;
-    width: 5%;
+    border-width: 1rem;
+    width: 10%;
+    color: turquoise;
 }
 
-.edu_table{
-    border-collapse: separate;
-    border-spacing: 1px;
-    border: 1px solid rgb(0, 0, 0);
+.top-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-table.edu_table td{
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid rgb(0, 0, 0);
-    border-spacing: 1px;
+
+.mountain {
+  width: 100%;
+}
+
+.introduction {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 10%;
+}
+
+.middle-container {
+  background-image: url("../image/dafzs25-066317f8-6283-48fa-b623-e4e18165e594.png");
+  background-size: 100%;
+}
+
+.profile {
+  padding: 10% auto 10% auto;
+}
+
+.profile p {
+  color: rgb(29, 37, 141);
+  size: 3rem;
+}
+
+.skills h2{
+    margin: 5% auto 5% auto;
+}
+
+.skills h3{
+    color: #00ffff;
+}
+
+.skill-row {
+  margin: 1% auto 1% auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2rem;
+}
+
+.skill-row p {
+  color: #00ffff;
+}
+
+.math-img {
+  width: 25%;
+  float: left;
+  margin-right: 2rem;
+}
+
+.ml-img {
+  width: 25%;
+  float: right;
+  margin-left: 2rem;
+}
+
+.contact-me h2, .contact-me h3, .contact-me p{
+    color: rgb(29, 37, 141);
 }
